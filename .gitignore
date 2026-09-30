@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.o
+*.obj
+*.exe
+*.out
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+build/
+
+# Local verification and tooling output
+/actual.txt
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
